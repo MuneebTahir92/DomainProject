@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name ="BestBuy Test Script" parallel="false">
+
+    <parameter name="url" value="https://www.bestbuy.com/"></parameter>
+
+    <test name = "BestBuy Home">
+
+        <classes>
+            <class name="bbhome.Title"></class>
+            <class name="landingpage.Search"></class>
+        </classes>
+
+    </test>
+
+</suite>

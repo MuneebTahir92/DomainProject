@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name ="BestBuy Test Script" parallel="false">
+<suite name ="BestBuy Home Test Script" parallel="false">
 
     <parameter name="url" value="https://www.bestbuy.com/"></parameter>
 
     <test name = "BestBuy Home">
 
         <classes>
+            <class name="bbhome.ComputersAndTabletsDropDown"></class>
+            <class name="bbhome.DealOfTheDay"></class>
+            <class name="bbhome.LaptopAndDesktopDropDown"></class>
+            <class name="bbhome.ProductsDropDown"></class>
+            <class name="bbhome.Search"></class>
+            <class name="bbhome.SearchMultipleItems"></class>
+            <class name="bbhome.SearchWithDB"></class>
             <class name="bbhome.Title"></class>
-            <class name="landingpage.Search"></class>
+            <class name="bbhome.TitleUnitTest"></class>
         </classes>
 
     </test>

@@ -16,7 +16,7 @@ public class LaptopAndDesktopDropDown extends CommonAPI {
         driver.findElement(By.cssSelector("#header-menu-44 li:nth-child(1)")).click();
         List<WebElement> products = driver.findElements(By.cssSelector(".sidecar-menu sidecar-menu-0 .header-menu li a"));
         for(WebElement product:products) {
-            System.out.println(product);
+            System.out.println(product.getText());
         }
     }
 }

@@ -15,7 +15,7 @@ public class ComputersAndTabletsDropDown extends CommonAPI {
         driver.findElement(By.cssSelector(".menu-item-button-44")).click();
         List<WebElement> products = driver.findElements(By.cssSelector(".flyout-content #header-menu-44 li"));
         for(WebElement product:products) {
-            System.out.println(product);
+            System.out.println(product.getText());
         }
     }
 }

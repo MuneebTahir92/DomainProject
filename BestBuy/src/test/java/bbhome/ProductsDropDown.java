@@ -14,7 +14,7 @@ public class ProductsDropDown extends CommonAPI {
         driver.findElement(By.cssSelector(".btn-unstyled.menuHeader.active.flyBtn")).click();
         List<WebElement> products = driver.findElements(By.cssSelector(".flyout-content #header-menu-166 li h3"));
         for(WebElement product:products){
-            System.out.println(product);
+            System.out.println(product.getText());
         }
     }
 }

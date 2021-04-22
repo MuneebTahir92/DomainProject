@@ -13,7 +13,7 @@ public class AboutUsDropDown extends CommonAPI {
     public void aboutThemDropDown(){
         List<WebElement> about = driver.findElements(By.cssSelector("#menu-menu-1 ##867 .sub-menu li"));
         for(WebElement us:about){
-            System.out.println(us);
+            System.out.println(us.getText());
         }
     }
 }

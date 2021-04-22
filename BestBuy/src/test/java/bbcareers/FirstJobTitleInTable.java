@@ -2,6 +2,7 @@ package bbcareers;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.CareersPage;
 import start.CommonAPI;
@@ -14,5 +15,8 @@ public class FirstJobTitleInTable extends CommonAPI {
         careersPage.clickOnSearchOpeningsButton();
         String job = driver.findElement(By.cssSelector(".brassring tr:nth-child(3) td:nth-child(1) a")).getText();
         System.out.println(job);
+        String actualJobTitle = "Administrator, Quality Assurance DDC";
+
+        Assert.assertEquals(actualJobTitle, job);
     }
 }

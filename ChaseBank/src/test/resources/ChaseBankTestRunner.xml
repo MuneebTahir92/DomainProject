@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name ="Chase Bank Home Test Script" parallel="false">
+
+    <parameter name="url" value="https://www.chase.com/"></parameter>
+
+    <test name = "Chase Bank Home">
+
+        <classes>
+            <class name="chasehome.OpenAnAccountElements"></class>
+            <class name="chasehome.SearchSomething"></class>
+        </classes>
+
+    </test>
+
+</suite>

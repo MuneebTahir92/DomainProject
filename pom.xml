@@ -11,6 +11,7 @@
     <modules>
         <module>Generic</module>
         <module>BestBuy</module>
+        <module>ChaseBank</module>
     </modules>
 
     <dependencyManagement>

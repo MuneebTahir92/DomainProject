@@ -37,6 +37,11 @@ public class CommonAPI {
         driver.findElement(By.cssSelector(locator)).sendKeys(value, Keys.ENTER);
     }
 
+    public void clickThenSearch(String clickable, String textBox, String value){
+        driver.findElement(By.cssSelector(clickable)).click();
+        driver.findElement(By.cssSelector(textBox)).sendKeys(value, Keys.ENTER);
+    }
+
     public void clearField(String locator){
         driver.findElement(By.cssSelector(locator)).clear();
     }

@@ -8,8 +8,11 @@
     <test name = "Chase Bank Business">
 
         <classes>
-            <class name="chasebusiness.OpenAnAccountElements"></class>
-            <class name="chasebusiness.SearchSomething"></class>
+            <class name="chasebusiness.ApplyForPPPLoan"></class>
+            <class name="chasebusiness.CorporationChecklistPDF"></class>
+            <class name="chasebusiness.DownloadChaseApp"></class>
+            <class name="chasebusiness.GetPPPText"></class>
+            <class name="chasebusiness.LearnAboutVeteranBanking"></class>
         </classes>
 
     </test>

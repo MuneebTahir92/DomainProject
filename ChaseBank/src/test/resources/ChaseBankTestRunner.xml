@@ -10,6 +10,10 @@
         <classes>
             <class name="chasehome.OpenAnAccountElements"></class>
             <class name="chasehome.SearchSomething"></class>
+            <class name="chasehome.SearchWithMethod"></class>
+            <class name="chasehome.SignIntoAccount"></class>
+            <class name="chasehome.SwitchToSpanish"></class>
+            <class name="chasehome.SwitchToSpanishAndBack"></class>
         </classes>
 
     </test>
